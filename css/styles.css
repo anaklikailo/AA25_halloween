@@ -40,3 +40,9 @@ nav ul li a {
     border-radius: 8px;
 }
 
+table {
+    width:100%;
+    border-collapse:collapse;
+    font-family:sans-serif;
+    
+}

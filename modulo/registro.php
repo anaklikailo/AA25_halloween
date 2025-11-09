@@ -3,6 +3,11 @@
     conectar();
     
     $mensaje = '';
+
+    /* ALTER TABLE usuarios
+    MODIFY id INT(11) NOT NULL AUTO_INCREMENT,
+    ADD PRIMARY KEY (id);
+    */
     
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $user = isset($_POST['username']) ? htmlspecialchars($_POST['username']) : '';
